@@ -1,0 +1,31 @@
+git branch -r   		To list all the remote branches
+git checkout -b LocalName origin/remotebranchname		To check them out as local branches
+Git config --global user.name "vivek"		To set user name to git
+Git config --global user.email "emailid"		To set email id
+Git config --list		To view all the global git info
+Git config --global core.editor vim		.
+Git config user.name		To view user name
+Git config user.email		To view email
+Git status		To check the status of git repo
+Git add --a		To add all files to stage area
+Git commit -m "any message"		To commit the files 
+Git log		Gives the list of commits
+Git add filename		To stage specific file
+Rm -rf .git	Linux command	To stop tracking and remove the git folder/repo
+Git clone "url"		To clone a remote repo
+		
+
+
+
+
+
+Git Features:-
+
+-> Captures snapshot.
+
+.git - contains history of the whole project
+
+-> almost every operation is local
+-> git has integrity (SHA1 checksum i.e unique identity number for every file and its changes)
+
+Tracking project :-
